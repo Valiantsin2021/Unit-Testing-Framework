@@ -1,0 +1,10 @@
+{
+	"scripts": {
+		"test": "mocha *.test.js",
+		"coverage": "nyc npm run test"
+	},
+	"devDependencies": {
+		"mocha": "^9.2.2",
+		"nyc": "^15.1.0"
+	}
+}
