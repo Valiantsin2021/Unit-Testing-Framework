@@ -1,16 +1,17 @@
 class Calculator{
-	constructor(fnum, snum) {
-		this.fnum = fnum;
-		this.snum = snum;
+	constructor(firstNum, secondNum) {
+		this.firstNum = firstNum;
+		this.secondNum = secondNum;
 	}
+	
 	add() {
-		return this.fnum + this.snum;
+		return this.firstNum + this.secondNum;
 	}
 	multiply() {
-		return this.fnum*this.snum;
+		return this.firstNum * this.secondNum;
 	}
 }
 
-module.exports = Calculator
+module.exports = new Calculator (5,6);
 
 	
